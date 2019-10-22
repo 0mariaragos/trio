@@ -23,6 +23,8 @@ namespace teste
         static void Main(string[] args)
         {
             Console.WriteLine("O resultado da soma: {0} + {1} = {2}", 3, 5, somar(3, 5));
+
+            Console.WriteLine("O resultado da subtração: {0} + {1} = {2}", 3, 5, subtrair(3, 5));
         }
     }
 }
